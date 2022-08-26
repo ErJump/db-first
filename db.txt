@@ -1,0 +1,28 @@
+Database auto usate
+
+id - intero - SMALLINT - PRIMARY_KEY - AUTO_INCREMENT
+numero_telaio - stringa - VARCHAR(16) - NOTNULL - UNIQUE
+km_percorsi - intero - MEDIUMINT - NOTNULL 
+anno_produzione - date - YEAR - NOTNULL
+marca - stringa - VARCHAR(20) - NOTNULL
+modello - stringa - VARCHAR(20) - NOTNULL
+prezzo_di_mercato - intero - MEDIUMINT - NULL
+prezzo_rivendita - intero - MEDIUMINT - NOTNULL
+//le liste con i tipi vengono codificate in numeri
+tipo_di_carburante - intero - TINYINT - NOTNULL
+tipologia_di_macchina - intero - TINYINT - NULL 
+meccanica_cambio - intero - TINYINT - NOTNULL
+marce - intero - TINYINT - NOTNULL
+trazione - intero - TINYINT - NOTNULL
+cilindrata - intero - SMALLINT - NULL
+classe_inquinamento - intero - TINYINT - NULL
+consumo_medio - stringa - VARCHAR(10) - NOTNULL
+posti - intero - TINYINT - NOTNULL
+neopatentati - boolean - TINYINT - NOTNULL 
+colore_carrozzeria - intero - TINYINT - NULL
+colore_interni - intero - TINYINT - NULL
+finanziamento - boolean - TINYINT - NOTNULL 
+disponibilità - boolean - TINYINT - NOTNULL 
+iva_detraibile - boolean - TINYINT - NOTNULL 
+note - stringa - TEXT - NULL
+
