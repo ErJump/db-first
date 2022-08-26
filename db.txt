@@ -8,12 +8,12 @@ marca - stringa - VARCHAR(20) - NOTNULL
 modello - stringa - VARCHAR(20) - NOTNULL
 prezzo_di_mercato - intero - MEDIUMINT - NULL
 prezzo_rivendita - intero - MEDIUMINT - NOTNULL
+tipo_di_carburante - string - VARCHAR(10) - NOTNULL
+tipologia_di_macchina - string - VARCHAR(10) - NULL 
 //le liste con i tipi vengono codificate in numeri
-tipo_di_carburante - intero - TINYINT - NOTNULL
-tipologia_di_macchina - intero - TINYINT - NULL 
 meccanica_cambio - intero - TINYINT - NOTNULL
 marce - intero - TINYINT - NOTNULL
-trazione - intero - TINYINT - NOTNULL
+trazione - string - VARCHAR(10) - NOTNULL
 cilindrata - intero - SMALLINT - NULL
 classe_inquinamento - intero - TINYINT - NULL
 consumo_medio - stringa - VARCHAR(10) - NOTNULL
